@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Roboto:wght@500;700&display=swap");
+body{
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    /* background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg); */
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: green; */
+    color: wheat;
+    /* position: relative; */
+    text-align: center;
+}
+.title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+.btn{
+    position: relative;
+    height: 50px;
+    width: 250px;
+    top: 250px;
+    background-color: gold;
+    color: #7C0A02;
+}
+.quote{
+    position: relative;
+    color: black;
+    background-color: antiquewhite;
+    width:80%;
+    left:150px;
+    height:600px;
+    border: 50px;
+    border-color: black;
+    border-radius: 50px ;
+    display: none;
+    backdrop-filter: blur(20px);
+}
+/* .blur{
+    backdrop-filter: blur(20px);
+} */
